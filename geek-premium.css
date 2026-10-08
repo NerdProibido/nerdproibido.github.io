@@ -102,5 +102,5 @@ header .logo:after{display:none!important}
 @media(max-width:700px){header .logo{font-size:26px!important}.heroText:before{font-size:clamp(35px,9.4vw,64px);letter-spacing:-2px!important}.heroText h1{font-size:32px!important}}
 @media(max-width:380px){header .logo{font-size:23px!important}.heroText:before{font-size:33px}}
 
-/* Remove somente o conjunto de capas decorativas no banner inicial */
-.heroArt{display:none!important}.heroBox{grid-template-columns:1fr!important}.heroText{max-width:1100px!important}.heroText:before{max-width:100%}
+/* Oculta apenas o carrossel inicial de HQs com navegação lateral. */
+.showcase.new{display:none!important}
