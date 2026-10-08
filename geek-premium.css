@@ -104,3 +104,14 @@ header .logo:after{display:none!important}
 
 /* Oculta apenas o carrossel inicial de HQs com navegação lateral. */
 .showcase.new{display:none!important}
+
+
+/* Marca principal: tipografia comic-book condensada, recorte branco/vermelho */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+header .logo{font-family:'Bangers',Impact,'Arial Narrow',sans-serif!important;font-size:clamp(35px,3.6vw,56px)!important;line-height:1!important;letter-spacing:1.5px!important;font-style:normal!important;font-weight:400!important;transform:skew(-8deg) rotate(-2deg) scaleY(1.12)!important;transform-origin:left center;white-space:nowrap;display:inline-flex;align-items:baseline;color:#fff!important;-webkit-text-stroke:.6px #fff;text-shadow:3px 3px 0 #080709,5px 5px 0 #a3a3a3,7px 7px 0 #090609,0 0 16px #ffffff4d!important;filter:drop-shadow(0 2px 5px #000)}
+header .logo span{font-family:inherit!important;font-size:inherit!important;letter-spacing:inherit!important;font-weight:inherit!important;color:#fa112b!important;-webkit-text-stroke:.7px #ff4555;text-shadow:3px 3px 0 #080709,5px 5px 0 #67020f,7px 7px 0 #090609,0 0 22px #ff122a99!important}
+header .logo:before{content:'';position:absolute;inset:auto 0 -9px 0;height:4px;background:linear-gradient(90deg,#fff 0%,#fff 33%,#e80922 35%,#f41c31 100%);box-shadow:0 0 12px #e50914a0;transform:skew(-18deg)}
+header .logo:after{display:none!important}
+.heroText:before{font-family:'Bangers',Impact,'Arial Narrow',sans-serif!important;font-size:clamp(57px,8.6vw,132px)!important;letter-spacing:2px!important;font-style:normal!important;font-weight:400!important;line-height:1!important;transform:skew(-8deg) rotate(-2deg) scaleY(1.06)!important;transform-origin:left center;background:linear-gradient(90deg,#fff 0%,#fff 32%,#f0182e 33%,#ff273b 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(4px 5px 0 #180509) drop-shadow(0 0 15px #e5091470);margin-bottom:20px}
+@media(max-width:760px){header .logo{font-size:36px!important;letter-spacing:.3px!important}.heroText:before{font-size:clamp(48px,11vw,75px)!important;letter-spacing:0!important}}
+@media(max-width:420px){header .logo{font-size:30px!important}.heroText:before{font-size:clamp(42px,10.6vw,52px)!important}}
