@@ -87,3 +87,17 @@ section{margin-top:35px}
 @media(max-width:1050px){.categories{grid-template-columns:repeat(2,minmax(0,1fr))!important}.heroBox{padding:38px 5%}.heroArt{transform:scale(.8)}}
 @media(max-width:700px){.heroBox{display:flex;flex-direction:column;gap:12px;padding:34px 22px}.heroText h1{font-size:43px}.heroArt{transform:scale(.85);height:225px}.featured{grid-template-columns:1fr}.feature{min-height:245px}.featureText h3{font-size:17px}.categories{grid-template-columns:repeat(2,minmax(0,1fr))!important}.cat{min-height:145px!important;padding:13px!important}.cat b{font-size:14px!important}.cat span{font-size:11px!important}}
 @media(max-width:420px){.heroArt{transform:scale(.72)}.feature img{width:43%}.featureText{left:43%;width:56%}.featureText h3{font-size:15px}.featureText .cta2{font-size:9px;padding:9px}.categories{gap:9px!important}}
+
+
+/* Logotipo no estilo brush vermelho/branco da prévia aprovada */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+header .logo,.heroText:before{font-family:'Permanent Marker',Impact,'Arial Black',sans-serif!important;font-style:italic!important;font-weight:900!important;letter-spacing:-1.5px!important;transform:skew(-7deg) rotate(-2deg);text-transform:uppercase;line-height:1.1}
+header .logo{display:inline-block;font-size:clamp(24px,2.55vw,39px)!important;color:#f9f9f9!important;white-space:nowrap;text-shadow:2px 3px 0 #29292b,0 0 14px #ffffff1a}
+header .logo span{color:#f2182b!important;text-shadow:2px 3px 0 #520008,0 0 13px #ee122d77!important}
+header .logo:after{display:none!important}
+.heroText:before{content:'NERD PROIBIDO';display:block;width:max-content;max-width:100%;font-size:clamp(44px,6.2vw,102px);color:#f9f9f9;white-space:nowrap;margin:0 0 14px;text-shadow:4px 5px 0 #3d3d42,0 0 24px #e5192933}
+.heroText:before{background:linear-gradient(100deg,#fff 0%,#fff 41%,#f21a2c 42%,#f21a2c 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(3px 4px 0 #25060a)}
+.heroText h1{font-size:clamp(26px,3.2vw,47px)!important;font-style:normal!important;letter-spacing:-.8px!important;text-shadow:0 3px 15px #000!important}
+.heroBox:after{display:none!important}
+@media(max-width:700px){header .logo{font-size:26px!important}.heroText:before{font-size:clamp(35px,9.4vw,64px);letter-spacing:-2px!important}.heroText h1{font-size:32px!important}}
+@media(max-width:380px){header .logo{font-size:23px!important}.heroText:before{font-size:33px}}
