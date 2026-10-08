@@ -123,3 +123,6 @@ header .logo:before,header .logo:after{display:none!important}
 header .logo img{display:block;width:clamp(235px,25vw,330px);height:auto;max-height:65px;object-fit:contain;filter:drop-shadow(0 0 10px #eb14333a)}
 @media(max-width:760px){header .logo img{width:clamp(200px,58vw,270px);max-height:52px}}
 @media(max-width:380px){header .logo img{width:200px}}
+
+/* Remove sombra cinza apenas do nome NERDPROIBIDO no banner inferior */
+.heroText:before{text-shadow:none!important;filter:none!important}
